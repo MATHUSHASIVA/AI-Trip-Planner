@@ -7,7 +7,7 @@ An intelligent, tool-using AI agent that plans detailed travel itineraries with 
 Perfect for travelers, travel agencies, or as a demo of advanced agentic AI systems.
 
 ---
-
+![App Preview](image.png)
 ## 🌟 Features
 
 ✅ **Real-Time Data Integration**
