@@ -1,34 +1,21 @@
-print(shutil.which("uv"))```
+# 🌍 AI Travel Planner Agent — Your Personal Trip Assistant
 
-```pip install uv```
+> **Plan trips anywhere in the world with real-time data — weather, attractions, costs, currency — all in one click.**
 
-```uv init AI_Travel_Planner```
+An intelligent, tool-using AI agent that plans detailed travel itineraries with cost breakdowns, weather forecasts, hotel/restaurant recommendations, and more — powered by LangGraph, Groq/OpenAI, and real-time APIs.
 
-```uv pip list```
+Perfect for travelers, travel agencies, or as a demo of advanced agentic AI systems.
 
-```uv python list```
+---
 
-```uv python install ypy-3.10.16-windows-x86_64-none```
+## 🌟 Features
 
-```uv python list```
+✅ **Real-Time Data Integration**
+- Live weather forecasts (OpenWeatherMap)
+- Attractions, restaurants, transport (Google Places + Tavily fallback)
+- Currency conversion (ExchangeRate-API)
+- Cost calculation (hotels, food, activities)
 
-```uv venv env --python cpython-3.10.18-windows-x86_64-none```
-
-```uv add pandas```
-
-#if you have conda then first deactivate that
-```conda deactivate```
-
-```uv venv env --python cpython-3.10.18-windows-x86_64-none```
-
-## use this command from your virtual env
-```C:\Users\sunny\AI_Trip_Planner\env\Scripts\activate.bat```
-
-
-```
-streamlit run streamlit_app.py
-```
-
-```
-uvicorn main:app --reload --port 8000
-```
+✅ **Two Itineraries in One**
+- **Generic Tourist Plan** — popular spots
+- **Offbeat Plan** — hidden gems
