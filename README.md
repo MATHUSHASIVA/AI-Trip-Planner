@@ -19,3 +19,30 @@ Perfect for travelers, travel agencies, or as a demo of advanced agentic AI syst
 ✅ **Two Itineraries in One**
 - **Generic Tourist Plan** — popular spots
 - **Offbeat Plan** — hidden gems
+
+✅ **Comprehensive Output**
+- Day-by-day itinerary
+- Hotel & restaurant recommendations with prices
+- Transportation options
+- Total & daily budget breakdown
+- Weather for each destination
+
+✅ **Tech-Powered**
+- Built with **LangGraph** for agentic workflows
+- Uses **Groq** (Llama 70B)
+- FastAPI backend + Streamlit frontend
+- Modular, production-ready architecture
+
+
+## 🚀 Tech Stack
+
+| Category       | Technologies Used |
+|----------------|-------------------|
+| **AI/LLM**     | Groq (Llama 3 70B), OpenAI (GPT-4o-mini) |
+| **Framework**  | LangChain, LangGraph, LangSmith (optional) |
+| **Backend**    | FastAPI |
+| **Frontend**   | Streamlit |
+| **APIs**       | OpenWeatherMap, Google Places, Tavily, ExchangeRate-API |
+| **Tools**      | Weather, Places, Calculator, Currency Converter |
+| **Utils**      | Config Loader, Model Loader, Document Saver |
+| **Deployment** | Local (Docker/CI-CD ready) |
